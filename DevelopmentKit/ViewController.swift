@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
     let titles = [
         "Keychain", "ModelAnimator", "TableView高度缓存",
         "自定义虚线视图DashView", "自定义UIView每个圆角大小RoundView", "自定义UICollectionViewFlowLayout",
@@ -17,22 +16,22 @@ class ViewController: UIViewController {
         "标签样式CollectionViewTagLayout", "ScrollView简单嵌套"
     ]
     
+    lazy var tableView: UITableView = {
+        let view = UITableView(frame: .zero, style: .grouped)
+        view.dataSource = self
+        view.delegate = self
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Jasmine"
-        
-        let button = UIButton(type: .custom)
-        button.setTitle("验证码", for: .normal)
-        button.setTitleColor(.darkText, for: .normal)
-        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
-        
-        
-        let date = Date(year: 2024, month: 12, day: 11, hour: 23, minute: 27, second: 50)!
-        print(date)
-        let dateString = date.dateString(with: "yyyy-MM-dd HH:mm:ss")
-        print(dateString)
-
-        print(date.chineseYearMonthDay)
+        view.addSubview(tableView)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
     
 }
