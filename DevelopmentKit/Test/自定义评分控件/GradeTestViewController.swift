@@ -1,13 +1,13 @@
 //
-//  TempViewController.swift
-//  DevelopmentKit
+//  GradeTestViewController.swift
+//  Jasmine
 //
-//  Created by 姚旭 on 2024/12/12.
+//  Created by ebamboo on 2022/7/7.
 //
 
 import UIKit
 
-class TempViewController: UIViewController {
+class GradeTestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
