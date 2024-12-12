@@ -28,13 +28,13 @@ public extension FileManager {
     /// 2. 文件夹大小
     /// 单位：字节 B
     ///
-    func fileSize(filePath: String) -> UInt? {
-        let attributes = try? attributesOfItem(atPath: filePath)
+    func fileSize(at path: String) -> UInt? {
+        let attributes = try? attributesOfItem(atPath: path)
         return attributes?[.size] as? UInt
     }
-    func folderSize(folderPath: String) -> UInt? {
-        guard let subpaths = try? subpathsOfDirectory(atPath: folderPath) else { return nil }
-        return subpaths.reduce(into: 0) { $0 += fileSize(filePath: "\(folderPath)/\($1)") ?? 0 }
+    func folderSize(at path: String) -> UInt? {
+        guard let subpaths = try? subpathsOfDirectory(atPath: path) else { return nil }
+        return subpaths.reduce(into: 0) { $0 += (fileSize(at: $1) ?? 0) }
     }
     
 }

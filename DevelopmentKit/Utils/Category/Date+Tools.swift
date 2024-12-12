@@ -27,12 +27,22 @@ public extension Date {
     }
     
     /// 指定日历的日期时间生成 Date
-    init?(year: Int, month: Int, day: Int, hour: Int, minute: Int, second: Int,
+    init?(year: Int,
+          month: Int,
+          day: Int,
+          hour: Int,
+          minute: Int,
+          second: Int,
           calendar: Calendar = Calendar(identifier: .gregorian),
           timeZone: TimeZone = .current) {
-        let dateComponents = DateComponents(calendar: calendar, timeZone: timeZone,
-                                            year: year, month: month, day: day,
-                                            hour: hour, minute: minute, second: second)
+        let dateComponents = DateComponents(calendar: calendar,
+                                            timeZone: timeZone,
+                                            year: year,
+                                            month: month,
+                                            day: day,
+                                            hour: hour,
+                                            minute: minute,
+                                            second: second)
         guard let date = dateComponents.date else { return nil }
         self = date
     }

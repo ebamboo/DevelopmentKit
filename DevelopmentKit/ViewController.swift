@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let titles = [
-        "Keychain", "ModelAnimator", "TableView高度缓存",
+        "Keychain", "ModelAnimator", "已删除，等待优化",
         "自定义虚线视图DashView", "自定义UIView每个圆角大小RoundView", "自定义UICollectionViewFlowLayout",
         "UIImage+Transform 测试", "自定义 Stepper", "自定义评分控件",
         "标签样式CollectionViewTagLayout", "ScrollView简单嵌套"
@@ -62,7 +62,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             return
         }
         if indexPath.row == 2 {
-            navigationController?.pushViewController(CacheHeightViewController(), animated: true)
+            
             return
         }
         if indexPath.row == 3 {

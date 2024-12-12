@@ -63,10 +63,22 @@ public extension UIViewController {
 
 public extension UIViewController {
     
-    func addChild(_ child: UIViewController, in container: UIView, in rect: CGRect, completion: (() -> Void)?) {
+    func addChild(_ child: UIViewController,
+                  in container: UIView? = nil, // nil 默认添加到 self.view
+                  layout: ((_ childView: UIView, _ container: UIView) -> Void)? = nil, // nil 表示和父视图 bounds 相同
+                  completion: (() -> Void)?) {
         addChild(child)
-        child.view.frame = rect
+        let container = container ?? view!
         container.addSubview(child.view)
+        if let layout = layout {
+            layout(child.view, container)
+        } else {
+            child.view.translatesAutoresizingMaskIntoConstraints = false
+            child.view.leadingAnchor.constraint(equalTo: container.leadingAnchor).isActive = true
+            child.view.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
+            child.view.topAnchor.constraint(equalTo: container.topAnchor).isActive = true
+            child.view.bottomAnchor.constraint(equalTo: container.bottomAnchor).isActive = true
+        }
         completion?()
     }
     
