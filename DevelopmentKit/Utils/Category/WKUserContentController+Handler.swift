@@ -59,10 +59,14 @@ private extension NSObject {
     static var script_message_handler_additions_key = "script_message_handler_additions_key"
     var scriptMessageHandlerAdditions: [ScriptMessageHandlerAddition] {
         get {
-            objc_getAssociatedObject(self, &Self.script_message_handler_additions_key) as? [ScriptMessageHandlerAddition] ?? []
+            withUnsafePointer(to: &Self.script_message_handler_additions_key) { key in
+                objc_getAssociatedObject(self, key) as? [ScriptMessageHandlerAddition] ?? []
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.script_message_handler_additions_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.script_message_handler_additions_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     

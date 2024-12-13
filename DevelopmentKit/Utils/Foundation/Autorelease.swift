@@ -23,10 +23,14 @@ private extension NSObject {
     static var wrapped_timers_key = "wrapped_timers_key"
     var wrappedTimers: [WrappedTimer] {
         get {
-            objc_getAssociatedObject(self, &Self.wrapped_timers_key) as? [WrappedTimer] ?? []
+            withUnsafePointer(to: &Self.wrapped_timers_key) { key in
+                objc_getAssociatedObject(self, key) as? [WrappedTimer] ?? []
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.wrapped_timers_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.wrapped_timers_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     
@@ -54,10 +58,14 @@ private extension NSObject {
     static var wrapped_notification_observers_key = "wrapped_notification_observers_key"
     var wrappedNotificationObservers: [WrappedNotificationObserver] {
         get {
-            objc_getAssociatedObject(self, &Self.wrapped_notification_observers_key) as? [WrappedNotificationObserver] ?? []
+            withUnsafePointer(to: &Self.wrapped_notification_observers_key) { key in
+                objc_getAssociatedObject(self, key) as? [WrappedNotificationObserver] ?? []
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.wrapped_notification_observers_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.wrapped_notification_observers_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     
@@ -89,10 +97,14 @@ private extension NSObject {
     static var key_value_observations_key = "key_value_observations_key"
     var keyValueObservations: [NSKeyValueObservation] {
         get {
-            objc_getAssociatedObject(self, &Self.key_value_observations_key) as? [NSKeyValueObservation] ?? []
+            withUnsafePointer(to: &Self.key_value_observations_key) { key in
+                objc_getAssociatedObject(self, key) as? [NSKeyValueObservation] ?? []
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.key_value_observations_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.key_value_observations_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     

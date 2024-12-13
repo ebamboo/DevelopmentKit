@@ -45,10 +45,14 @@ private extension UIBarButtonItem {
     static var action_handler_target_key = "action_handler_target_key"
     var actionHandlerTarget: ActionHandlerTarget? {
         get {
-            objc_getAssociatedObject(self, &Self.action_handler_target_key) as? ActionHandlerTarget
+            withUnsafePointer(to: &Self.action_handler_target_key) { key in
+                objc_getAssociatedObject(self, key) as? ActionHandlerTarget
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.action_handler_target_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.action_handler_target_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     

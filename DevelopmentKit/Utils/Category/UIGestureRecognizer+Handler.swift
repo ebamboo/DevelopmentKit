@@ -48,10 +48,14 @@ private extension UIGestureRecognizer {
     static var action_handler_targets_key = "action_handler_targets_key"
     var actionHandlerTargets: [ActionHandlerTarget] {
         get {
-            objc_getAssociatedObject(self, &Self.action_handler_targets_key) as? [ActionHandlerTarget] ?? []
+            withUnsafePointer(to: &Self.action_handler_targets_key) { key in
+                objc_getAssociatedObject(self, key) as? [ActionHandlerTarget] ?? []
+            }
         }
         set {
-            objc_setAssociatedObject(self, &Self.action_handler_targets_key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            withUnsafePointer(to: &Self.action_handler_targets_key) { key in
+                objc_setAssociatedObject(self, key, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            }
         }
     }
     
