@@ -6,47 +6,357 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DADA89E2BF4BC61D2954542D /* Pods_DevelopmentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C358B8587C63B9B1726C6 /* Pods_DevelopmentKit.framework */; };
+		EA9C641E2D0CA00C007C5E69 /* TagLayoutTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63D22D0CA00C007C5E69 /* TagLayoutTestViewController.xib */; };
+		EA9C641F2D0CA00C007C5E69 /* StepperTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63D52D0CA00C007C5E69 /* StepperTestViewController.xib */; };
+		EA9C64202D0CA00C007C5E69 /* GradeTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63D82D0CA00C007C5E69 /* GradeTestViewController.xib */; };
+		EA9C64212D0CA00C007C5E69 /* DashTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63DB2D0CA00C007C5E69 /* DashTestViewController.xib */; };
+		EA9C64222D0CA00C007C5E69 /* FlowLayoutTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63DE2D0CA00C007C5E69 /* FlowLayoutTestViewController.xib */; };
+		EA9C64232D0CA00C007C5E69 /* RoundViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63E12D0CA00C007C5E69 /* RoundViewTestViewController.xib */; };
+		EA9C64242D0CA00C007C5E69 /* KeychainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63E42D0CA00C007C5E69 /* KeychainViewController.xib */; };
+		EA9C64252D0CA00C007C5E69 /* PresentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63E72D0CA00C007C5E69 /* PresentedViewController.xib */; };
+		EA9C64262D0CA00C007C5E69 /* PresentingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63E92D0CA00C007C5E69 /* PresentingViewController.xib */; };
+		EA9C64272D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63EC2D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib */; };
+		EA9C64282D0CA00C007C5E69 /* UIImageTransformTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C63EF2D0CA00C007C5E69 /* UIImageTransformTestViewController.xib */; };
+		EA9C64292D0CA00C007C5E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */; };
+		EA9C642B2D0CA00C007C5E69 /* TagLayoutTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63D12D0CA00C007C5E69 /* TagLayoutTestViewController.swift */; };
+		EA9C642C2D0CA00C007C5E69 /* StepperTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63D42D0CA00C007C5E69 /* StepperTestViewController.swift */; };
+		EA9C642D2D0CA00C007C5E69 /* GradeTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63D72D0CA00C007C5E69 /* GradeTestViewController.swift */; };
+		EA9C642E2D0CA00C007C5E69 /* DashTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63DA2D0CA00C007C5E69 /* DashTestViewController.swift */; };
+		EA9C642F2D0CA00C007C5E69 /* FlowLayoutTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63DD2D0CA00C007C5E69 /* FlowLayoutTestViewController.swift */; };
+		EA9C64302D0CA00C007C5E69 /* RoundViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63E02D0CA00C007C5E69 /* RoundViewTestViewController.swift */; };
+		EA9C64312D0CA00C007C5E69 /* KeychainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63E32D0CA00C007C5E69 /* KeychainViewController.swift */; };
+		EA9C64322D0CA00C007C5E69 /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63E62D0CA00C007C5E69 /* PresentedViewController.swift */; };
+		EA9C64332D0CA00C007C5E69 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63E82D0CA00C007C5E69 /* PresentingViewController.swift */; };
+		EA9C64342D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63EB2D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift */; };
+		EA9C64352D0CA00C007C5E69 /* UIImageTransformTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63EE2D0CA00C007C5E69 /* UIImageTransformTestViewController.swift */; };
+		EA9C64362D0CA00C007C5E69 /* Date+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F22D0CA00C007C5E69 /* Date+Tools.swift */; };
+		EA9C64372D0CA00C007C5E69 /* Double+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F32D0CA00C007C5E69 /* Double+Tools.swift */; };
+		EA9C64382D0CA00C007C5E69 /* FileManager+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F42D0CA00C007C5E69 /* FileManager+Tools.swift */; };
+		EA9C64392D0CA00C007C5E69 /* NSObject+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F52D0CA00C007C5E69 /* NSObject+Tools.swift */; };
+		EA9C643A2D0CA00C007C5E69 /* String+Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F62D0CA00C007C5E69 /* String+Sub.swift */; };
+		EA9C643B2D0CA00C007C5E69 /* String+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F72D0CA00C007C5E69 /* String+Tools.swift */; };
+		EA9C643C2D0CA00C007C5E69 /* String+Verify.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F82D0CA00C007C5E69 /* String+Verify.swift */; };
+		EA9C643D2D0CA00C007C5E69 /* UIBarButtonItem+Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63F92D0CA00C007C5E69 /* UIBarButtonItem+Handler.swift */; };
+		EA9C643E2D0CA00C007C5E69 /* UIColor+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FA2D0CA00C007C5E69 /* UIColor+Tools.swift */; };
+		EA9C643F2D0CA00C007C5E69 /* UIControll+Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FB2D0CA00C007C5E69 /* UIControll+Handler.swift */; };
+		EA9C64402D0CA00C007C5E69 /* UIGestureRecognizer+Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FC2D0CA00C007C5E69 /* UIGestureRecognizer+Handler.swift */; };
+		EA9C64412D0CA00C007C5E69 /* UIImage+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FD2D0CA00C007C5E69 /* UIImage+Inits.swift */; };
+		EA9C64422D0CA00C007C5E69 /* UIImage+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FE2D0CA00C007C5E69 /* UIImage+Tools.swift */; };
+		EA9C64432D0CA00C007C5E69 /* UIImage+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C63FF2D0CA00C007C5E69 /* UIImage+Transform.swift */; };
+		EA9C64442D0CA00C007C5E69 /* UIStackView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64002D0CA00C007C5E69 /* UIStackView+Tools.swift */; };
+		EA9C64452D0CA00C007C5E69 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64012D0CA00C007C5E69 /* UIView+Layout.swift */; };
+		EA9C64462D0CA00C007C5E69 /* UIView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64022D0CA00C007C5E69 /* UIView+Tools.swift */; };
+		EA9C64472D0CA00C007C5E69 /* UIViewController+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64032D0CA00C007C5E69 /* UIViewController+Tools.swift */; };
+		EA9C64482D0CA00C007C5E69 /* URL+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64042D0CA00C007C5E69 /* URL+Tools.swift */; };
+		EA9C64492D0CA00C007C5E69 /* WKUserContentController+Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64052D0CA00C007C5E69 /* WKUserContentController+Handler.swift */; };
+		EA9C644A2D0CA00C007C5E69 /* Autorelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64072D0CA00C007C5E69 /* Autorelease.swift */; };
+		EA9C644B2D0CA00C007C5E69 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64082D0CA00C007C5E69 /* CollectionViewFlowLayout.swift */; };
+		EA9C644C2D0CA00C007C5E69 /* CollectionViewTagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64092D0CA00C007C5E69 /* CollectionViewTagLayout.swift */; };
+		EA9C644D2D0CA00C007C5E69 /* DashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640A2D0CA00C007C5E69 /* DashView.swift */; };
+		EA9C644E2D0CA00C007C5E69 /* JustWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640B2D0CA00C007C5E69 /* JustWork.swift */; };
+		EA9C644F2D0CA00C007C5E69 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640C2D0CA00C007C5E69 /* Keychain.swift */; };
+		EA9C64502D0CA00C007C5E69 /* ModelAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640D2D0CA00C007C5E69 /* ModelAnimator.swift */; };
+		EA9C64512D0CA00C007C5E69 /* NestedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640E2D0CA00C007C5E69 /* NestedScrollView.swift */; };
+		EA9C64522D0CA00C007C5E69 /* ObservedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C640F2D0CA00C007C5E69 /* ObservedTextField.swift */; };
+		EA9C64532D0CA00C007C5E69 /* ObservedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64102D0CA00C007C5E69 /* ObservedTextView.swift */; };
+		EA9C64542D0CA00C007C5E69 /* OrientationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64112D0CA00C007C5E69 /* OrientationButton.swift */; };
+		EA9C64552D0CA00C007C5E69 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64122D0CA00C007C5E69 /* RoundView.swift */; };
+		EA9C64562D0CA00C007C5E69 /* SpaceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64132D0CA00C007C5E69 /* SpaceLabel.swift */; };
+		EA9C64572D0CA00C007C5E69 /* StarGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64142D0CA00C007C5E69 /* StarGradeView.swift */; };
+		EA9C64582D0CA00C007C5E69 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64152D0CA00C007C5E69 /* Stepper.swift */; };
+		EA9C64592D0CA00C007C5E69 /* WeakObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64162D0CA00C007C5E69 /* WeakObjects.swift */; };
+		EA9C645A2D0CA00C007C5E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */; };
+		EA9C645B2D0CA00C007C5E69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C641C2D0CA00C007C5E69 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2FBE435EB8992B912DE6898C /* Pods-DevelopmentKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevelopmentKit.release.xcconfig"; path = "Target Support Files/Pods-DevelopmentKit/Pods-DevelopmentKit.release.xcconfig"; sourceTree = "<group>"; };
+		C06CC1547B08CF19A8315614 /* Pods-DevelopmentKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevelopmentKit.debug.xcconfig"; path = "Target Support Files/Pods-DevelopmentKit/Pods-DevelopmentKit.debug.xcconfig"; sourceTree = "<group>"; };
+		EA9C63D12D0CA00C007C5E69 /* TagLayoutTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayoutTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63D22D0CA00C007C5E69 /* TagLayoutTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagLayoutTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63D42D0CA00C007C5E69 /* StepperTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63D52D0CA00C007C5E69 /* StepperTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepperTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63D72D0CA00C007C5E69 /* GradeTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63D82D0CA00C007C5E69 /* GradeTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradeTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63DA2D0CA00C007C5E69 /* DashTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63DB2D0CA00C007C5E69 /* DashTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63DD2D0CA00C007C5E69 /* FlowLayoutTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63DE2D0CA00C007C5E69 /* FlowLayoutTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlowLayoutTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63E02D0CA00C007C5E69 /* RoundViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63E12D0CA00C007C5E69 /* RoundViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoundViewTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63E32D0CA00C007C5E69 /* KeychainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainViewController.swift; sourceTree = "<group>"; };
+		EA9C63E42D0CA00C007C5E69 /* KeychainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeychainViewController.xib; sourceTree = "<group>"; };
+		EA9C63E62D0CA00C007C5E69 /* PresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		EA9C63E72D0CA00C007C5E69 /* PresentedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentedViewController.xib; sourceTree = "<group>"; };
+		EA9C63E82D0CA00C007C5E69 /* PresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		EA9C63E92D0CA00C007C5E69 /* PresentingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentingViewController.xib; sourceTree = "<group>"; };
+		EA9C63EB2D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollViewTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63EC2D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedScrollViewTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63EE2D0CA00C007C5E69 /* UIImageTransformTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransformTestViewController.swift; sourceTree = "<group>"; };
+		EA9C63EF2D0CA00C007C5E69 /* UIImageTransformTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIImageTransformTestViewController.xib; sourceTree = "<group>"; };
+		EA9C63F22D0CA00C007C5E69 /* Date+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63F32D0CA00C007C5E69 /* Double+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63F42D0CA00C007C5E69 /* FileManager+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63F52D0CA00C007C5E69 /* NSObject+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63F62D0CA00C007C5E69 /* String+Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Sub.swift"; sourceTree = "<group>"; };
+		EA9C63F72D0CA00C007C5E69 /* String+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63F82D0CA00C007C5E69 /* String+Verify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Verify.swift"; sourceTree = "<group>"; };
+		EA9C63F92D0CA00C007C5E69 /* UIBarButtonItem+Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Handler.swift"; sourceTree = "<group>"; };
+		EA9C63FA2D0CA00C007C5E69 /* UIColor+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63FB2D0CA00C007C5E69 /* UIControll+Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControll+Handler.swift"; sourceTree = "<group>"; };
+		EA9C63FC2D0CA00C007C5E69 /* UIGestureRecognizer+Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+Handler.swift"; sourceTree = "<group>"; };
+		EA9C63FD2D0CA00C007C5E69 /* UIImage+Inits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Inits.swift"; sourceTree = "<group>"; };
+		EA9C63FE2D0CA00C007C5E69 /* UIImage+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Tools.swift"; sourceTree = "<group>"; };
+		EA9C63FF2D0CA00C007C5E69 /* UIImage+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Transform.swift"; sourceTree = "<group>"; };
+		EA9C64002D0CA00C007C5E69 /* UIStackView+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Tools.swift"; sourceTree = "<group>"; };
+		EA9C64012D0CA00C007C5E69 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		EA9C64022D0CA00C007C5E69 /* UIView+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Tools.swift"; sourceTree = "<group>"; };
+		EA9C64032D0CA00C007C5E69 /* UIViewController+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Tools.swift"; sourceTree = "<group>"; };
+		EA9C64042D0CA00C007C5E69 /* URL+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Tools.swift"; sourceTree = "<group>"; };
+		EA9C64052D0CA00C007C5E69 /* WKUserContentController+Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKUserContentController+Handler.swift"; sourceTree = "<group>"; };
+		EA9C64072D0CA00C007C5E69 /* Autorelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autorelease.swift; sourceTree = "<group>"; };
+		EA9C64082D0CA00C007C5E69 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		EA9C64092D0CA00C007C5E69 /* CollectionViewTagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTagLayout.swift; sourceTree = "<group>"; };
+		EA9C640A2D0CA00C007C5E69 /* DashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashView.swift; sourceTree = "<group>"; };
+		EA9C640B2D0CA00C007C5E69 /* JustWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWork.swift; sourceTree = "<group>"; };
+		EA9C640C2D0CA00C007C5E69 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		EA9C640D2D0CA00C007C5E69 /* ModelAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAnimator.swift; sourceTree = "<group>"; };
+		EA9C640E2D0CA00C007C5E69 /* NestedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollView.swift; sourceTree = "<group>"; };
+		EA9C640F2D0CA00C007C5E69 /* ObservedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedTextField.swift; sourceTree = "<group>"; };
+		EA9C64102D0CA00C007C5E69 /* ObservedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedTextView.swift; sourceTree = "<group>"; };
+		EA9C64112D0CA00C007C5E69 /* OrientationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationButton.swift; sourceTree = "<group>"; };
+		EA9C64122D0CA00C007C5E69 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		EA9C64132D0CA00C007C5E69 /* SpaceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLabel.swift; sourceTree = "<group>"; };
+		EA9C64142D0CA00C007C5E69 /* StarGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGradeView.swift; sourceTree = "<group>"; };
+		EA9C64152D0CA00C007C5E69 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		EA9C64162D0CA00C007C5E69 /* WeakObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakObjects.swift; sourceTree = "<group>"; };
+		EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9C641B2D0CA00C007C5E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9C641C2D0CA00C007C5E69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAD78EFA2D0B01D8007AA719 /* DevelopmentKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopmentKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4C358B8587C63B9B1726C6 /* Pods_DevelopmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevelopmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EAD78F0C2D0B01D8007AA719 /* Exceptions for "DevelopmentKit" folder in "DevelopmentKit" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EAD78EF92D0B01D8007AA719 /* DevelopmentKit */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EAD78EFC2D0B01D8007AA719 /* DevelopmentKit */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EAD78F0C2D0B01D8007AA719 /* Exceptions for "DevelopmentKit" folder in "DevelopmentKit" target */,
-			);
-			path = DevelopmentKit;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EAD78EF72D0B01D8007AA719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADA89E2BF4BC61D2954542D /* Pods_DevelopmentKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84239E5F1A0A9D952F085C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C06CC1547B08CF19A8315614 /* Pods-DevelopmentKit.debug.xcconfig */,
+				2FBE435EB8992B912DE6898C /* Pods-DevelopmentKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D10951F579414B157BA17654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C358B8587C63B9B1726C6 /* Pods_DevelopmentKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9C63D32D0CA00C007C5E69 /* 标签样式CollectionViewTagLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63D12D0CA00C007C5E69 /* TagLayoutTestViewController.swift */,
+				EA9C63D22D0CA00C007C5E69 /* TagLayoutTestViewController.xib */,
+			);
+			path = "标签样式CollectionViewTagLayout";
+			sourceTree = "<group>";
+		};
+		EA9C63D62D0CA00C007C5E69 /* 自定义 Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63D42D0CA00C007C5E69 /* StepperTestViewController.swift */,
+				EA9C63D52D0CA00C007C5E69 /* StepperTestViewController.xib */,
+			);
+			path = "自定义 Stepper";
+			sourceTree = "<group>";
+		};
+		EA9C63D92D0CA00C007C5E69 /* 自定义评分控件 */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63D72D0CA00C007C5E69 /* GradeTestViewController.swift */,
+				EA9C63D82D0CA00C007C5E69 /* GradeTestViewController.xib */,
+			);
+			path = "自定义评分控件";
+			sourceTree = "<group>";
+		};
+		EA9C63DC2D0CA00C007C5E69 /* 自定义虚线视图DashView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63DA2D0CA00C007C5E69 /* DashTestViewController.swift */,
+				EA9C63DB2D0CA00C007C5E69 /* DashTestViewController.xib */,
+			);
+			path = "自定义虚线视图DashView";
+			sourceTree = "<group>";
+		};
+		EA9C63DF2D0CA00C007C5E69 /* 自定义UICollectionViewFlowLayout  */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63DD2D0CA00C007C5E69 /* FlowLayoutTestViewController.swift */,
+				EA9C63DE2D0CA00C007C5E69 /* FlowLayoutTestViewController.xib */,
+			);
+			path = "自定义UICollectionViewFlowLayout ";
+			sourceTree = "<group>";
+		};
+		EA9C63E22D0CA00C007C5E69 /* 自定义UIView每个圆角大小RoundView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63E02D0CA00C007C5E69 /* RoundViewTestViewController.swift */,
+				EA9C63E12D0CA00C007C5E69 /* RoundViewTestViewController.xib */,
+			);
+			path = "自定义UIView每个圆角大小RoundView";
+			sourceTree = "<group>";
+		};
+		EA9C63E52D0CA00C007C5E69 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63E32D0CA00C007C5E69 /* KeychainViewController.swift */,
+				EA9C63E42D0CA00C007C5E69 /* KeychainViewController.xib */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		EA9C63EA2D0CA00C007C5E69 /* ModelAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63E62D0CA00C007C5E69 /* PresentedViewController.swift */,
+				EA9C63E72D0CA00C007C5E69 /* PresentedViewController.xib */,
+				EA9C63E82D0CA00C007C5E69 /* PresentingViewController.swift */,
+				EA9C63E92D0CA00C007C5E69 /* PresentingViewController.xib */,
+			);
+			path = ModelAnimator;
+			sourceTree = "<group>";
+		};
+		EA9C63ED2D0CA00C007C5E69 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63EB2D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift */,
+				EA9C63EC2D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EA9C63F02D0CA00C007C5E69 /* UIImage+Transform 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63EE2D0CA00C007C5E69 /* UIImageTransformTestViewController.swift */,
+				EA9C63EF2D0CA00C007C5E69 /* UIImageTransformTestViewController.xib */,
+			);
+			path = "UIImage+Transform 测试";
+			sourceTree = "<group>";
+		};
+		EA9C63F12D0CA00C007C5E69 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63D32D0CA00C007C5E69 /* 标签样式CollectionViewTagLayout */,
+				EA9C63D62D0CA00C007C5E69 /* 自定义 Stepper */,
+				EA9C63D92D0CA00C007C5E69 /* 自定义评分控件 */,
+				EA9C63DC2D0CA00C007C5E69 /* 自定义虚线视图DashView */,
+				EA9C63DF2D0CA00C007C5E69 /* 自定义UICollectionViewFlowLayout  */,
+				EA9C63E22D0CA00C007C5E69 /* 自定义UIView每个圆角大小RoundView */,
+				EA9C63E52D0CA00C007C5E69 /* Keychain */,
+				EA9C63EA2D0CA00C007C5E69 /* ModelAnimator */,
+				EA9C63ED2D0CA00C007C5E69 /* New Group */,
+				EA9C63F02D0CA00C007C5E69 /* UIImage+Transform 测试 */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		EA9C64062D0CA00C007C5E69 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63F22D0CA00C007C5E69 /* Date+Tools.swift */,
+				EA9C63F32D0CA00C007C5E69 /* Double+Tools.swift */,
+				EA9C63F42D0CA00C007C5E69 /* FileManager+Tools.swift */,
+				EA9C63F52D0CA00C007C5E69 /* NSObject+Tools.swift */,
+				EA9C63F62D0CA00C007C5E69 /* String+Sub.swift */,
+				EA9C63F72D0CA00C007C5E69 /* String+Tools.swift */,
+				EA9C63F82D0CA00C007C5E69 /* String+Verify.swift */,
+				EA9C63F92D0CA00C007C5E69 /* UIBarButtonItem+Handler.swift */,
+				EA9C63FA2D0CA00C007C5E69 /* UIColor+Tools.swift */,
+				EA9C63FB2D0CA00C007C5E69 /* UIControll+Handler.swift */,
+				EA9C63FC2D0CA00C007C5E69 /* UIGestureRecognizer+Handler.swift */,
+				EA9C63FD2D0CA00C007C5E69 /* UIImage+Inits.swift */,
+				EA9C63FE2D0CA00C007C5E69 /* UIImage+Tools.swift */,
+				EA9C63FF2D0CA00C007C5E69 /* UIImage+Transform.swift */,
+				EA9C64002D0CA00C007C5E69 /* UIStackView+Tools.swift */,
+				EA9C64012D0CA00C007C5E69 /* UIView+Layout.swift */,
+				EA9C64022D0CA00C007C5E69 /* UIView+Tools.swift */,
+				EA9C64032D0CA00C007C5E69 /* UIViewController+Tools.swift */,
+				EA9C64042D0CA00C007C5E69 /* URL+Tools.swift */,
+				EA9C64052D0CA00C007C5E69 /* WKUserContentController+Handler.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EA9C64172D0CA00C007C5E69 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C64072D0CA00C007C5E69 /* Autorelease.swift */,
+				EA9C64082D0CA00C007C5E69 /* CollectionViewFlowLayout.swift */,
+				EA9C64092D0CA00C007C5E69 /* CollectionViewTagLayout.swift */,
+				EA9C640A2D0CA00C007C5E69 /* DashView.swift */,
+				EA9C640B2D0CA00C007C5E69 /* JustWork.swift */,
+				EA9C640C2D0CA00C007C5E69 /* Keychain.swift */,
+				EA9C640D2D0CA00C007C5E69 /* ModelAnimator.swift */,
+				EA9C640E2D0CA00C007C5E69 /* NestedScrollView.swift */,
+				EA9C640F2D0CA00C007C5E69 /* ObservedTextField.swift */,
+				EA9C64102D0CA00C007C5E69 /* ObservedTextView.swift */,
+				EA9C64112D0CA00C007C5E69 /* OrientationButton.swift */,
+				EA9C64122D0CA00C007C5E69 /* RoundView.swift */,
+				EA9C64132D0CA00C007C5E69 /* SpaceLabel.swift */,
+				EA9C64142D0CA00C007C5E69 /* StarGradeView.swift */,
+				EA9C64152D0CA00C007C5E69 /* Stepper.swift */,
+				EA9C64162D0CA00C007C5E69 /* WeakObjects.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EA9C64182D0CA00C007C5E69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C64062D0CA00C007C5E69 /* Category */,
+				EA9C64172D0CA00C007C5E69 /* Foundation */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA9C641D2D0CA00C007C5E69 /* DevelopmentKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C63F12D0CA00C007C5E69 /* Test */,
+				EA9C64182D0CA00C007C5E69 /* Utils */,
+				EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */,
+				EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */,
+				EA9C641B2D0CA00C007C5E69 /* Info.plist */,
+				EA9C641C2D0CA00C007C5E69 /* ViewController.swift */,
+			);
+			path = DevelopmentKit;
+			sourceTree = "<group>";
+		};
 		EAD78EF12D0B01D8007AA719 = {
 			isa = PBXGroup;
 			children = (
-				EAD78EFC2D0B01D8007AA719 /* DevelopmentKit */,
+				EA9C641D2D0CA00C007C5E69 /* DevelopmentKit */,
 				EAD78EFB2D0B01D8007AA719 /* Products */,
+				84239E5F1A0A9D952F085C35 /* Pods */,
+				D10951F579414B157BA17654 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,20 +375,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAD78F0D2D0B01D8007AA719 /* Build configuration list for PBXNativeTarget "DevelopmentKit" */;
 			buildPhases = (
+				6138E1E702225B96B3587A11 /* [CP] Check Pods Manifest.lock */,
 				EAD78EF62D0B01D8007AA719 /* Sources */,
 				EAD78EF72D0B01D8007AA719 /* Frameworks */,
 				EAD78EF82D0B01D8007AA719 /* Resources */,
+				878AF31DDCF5DEDA7489F298 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				EAD78EFC2D0B01D8007AA719 /* DevelopmentKit */,
-			);
 			name = DevelopmentKit;
-			packageProductDependencies = (
-			);
 			productName = DevelopmentKit;
 			productReference = EAD78EFA2D0B01D8007AA719 /* DevelopmentKit.app */;
 			productType = "com.apple.product-type.application";
@@ -122,16 +429,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9C641E2D0CA00C007C5E69 /* TagLayoutTestViewController.xib in Resources */,
+				EA9C641F2D0CA00C007C5E69 /* StepperTestViewController.xib in Resources */,
+				EA9C64202D0CA00C007C5E69 /* GradeTestViewController.xib in Resources */,
+				EA9C64212D0CA00C007C5E69 /* DashTestViewController.xib in Resources */,
+				EA9C64222D0CA00C007C5E69 /* FlowLayoutTestViewController.xib in Resources */,
+				EA9C64232D0CA00C007C5E69 /* RoundViewTestViewController.xib in Resources */,
+				EA9C64242D0CA00C007C5E69 /* KeychainViewController.xib in Resources */,
+				EA9C64252D0CA00C007C5E69 /* PresentedViewController.xib in Resources */,
+				EA9C64262D0CA00C007C5E69 /* PresentingViewController.xib in Resources */,
+				EA9C64272D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib in Resources */,
+				EA9C64282D0CA00C007C5E69 /* UIImageTransformTestViewController.xib in Resources */,
+				EA9C64292D0CA00C007C5E69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6138E1E702225B96B3587A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevelopmentKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878AF31DDCF5DEDA7489F298 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevelopmentKit/Pods-DevelopmentKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevelopmentKit/Pods-DevelopmentKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevelopmentKit/Pods-DevelopmentKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EAD78EF62D0B01D8007AA719 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9C642B2D0CA00C007C5E69 /* TagLayoutTestViewController.swift in Sources */,
+				EA9C642C2D0CA00C007C5E69 /* StepperTestViewController.swift in Sources */,
+				EA9C642D2D0CA00C007C5E69 /* GradeTestViewController.swift in Sources */,
+				EA9C642E2D0CA00C007C5E69 /* DashTestViewController.swift in Sources */,
+				EA9C642F2D0CA00C007C5E69 /* FlowLayoutTestViewController.swift in Sources */,
+				EA9C64302D0CA00C007C5E69 /* RoundViewTestViewController.swift in Sources */,
+				EA9C64312D0CA00C007C5E69 /* KeychainViewController.swift in Sources */,
+				EA9C64322D0CA00C007C5E69 /* PresentedViewController.swift in Sources */,
+				EA9C64332D0CA00C007C5E69 /* PresentingViewController.swift in Sources */,
+				EA9C64342D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift in Sources */,
+				EA9C64352D0CA00C007C5E69 /* UIImageTransformTestViewController.swift in Sources */,
+				EA9C64362D0CA00C007C5E69 /* Date+Tools.swift in Sources */,
+				EA9C64372D0CA00C007C5E69 /* Double+Tools.swift in Sources */,
+				EA9C64382D0CA00C007C5E69 /* FileManager+Tools.swift in Sources */,
+				EA9C64392D0CA00C007C5E69 /* NSObject+Tools.swift in Sources */,
+				EA9C643A2D0CA00C007C5E69 /* String+Sub.swift in Sources */,
+				EA9C643B2D0CA00C007C5E69 /* String+Tools.swift in Sources */,
+				EA9C643C2D0CA00C007C5E69 /* String+Verify.swift in Sources */,
+				EA9C643D2D0CA00C007C5E69 /* UIBarButtonItem+Handler.swift in Sources */,
+				EA9C643E2D0CA00C007C5E69 /* UIColor+Tools.swift in Sources */,
+				EA9C643F2D0CA00C007C5E69 /* UIControll+Handler.swift in Sources */,
+				EA9C64402D0CA00C007C5E69 /* UIGestureRecognizer+Handler.swift in Sources */,
+				EA9C64412D0CA00C007C5E69 /* UIImage+Inits.swift in Sources */,
+				EA9C64422D0CA00C007C5E69 /* UIImage+Tools.swift in Sources */,
+				EA9C64432D0CA00C007C5E69 /* UIImage+Transform.swift in Sources */,
+				EA9C64442D0CA00C007C5E69 /* UIStackView+Tools.swift in Sources */,
+				EA9C64452D0CA00C007C5E69 /* UIView+Layout.swift in Sources */,
+				EA9C64462D0CA00C007C5E69 /* UIView+Tools.swift in Sources */,
+				EA9C64472D0CA00C007C5E69 /* UIViewController+Tools.swift in Sources */,
+				EA9C64482D0CA00C007C5E69 /* URL+Tools.swift in Sources */,
+				EA9C64492D0CA00C007C5E69 /* WKUserContentController+Handler.swift in Sources */,
+				EA9C644A2D0CA00C007C5E69 /* Autorelease.swift in Sources */,
+				EA9C644B2D0CA00C007C5E69 /* CollectionViewFlowLayout.swift in Sources */,
+				EA9C644C2D0CA00C007C5E69 /* CollectionViewTagLayout.swift in Sources */,
+				EA9C644D2D0CA00C007C5E69 /* DashView.swift in Sources */,
+				EA9C644E2D0CA00C007C5E69 /* JustWork.swift in Sources */,
+				EA9C644F2D0CA00C007C5E69 /* Keychain.swift in Sources */,
+				EA9C64502D0CA00C007C5E69 /* ModelAnimator.swift in Sources */,
+				EA9C64512D0CA00C007C5E69 /* NestedScrollView.swift in Sources */,
+				EA9C64522D0CA00C007C5E69 /* ObservedTextField.swift in Sources */,
+				EA9C64532D0CA00C007C5E69 /* ObservedTextView.swift in Sources */,
+				EA9C64542D0CA00C007C5E69 /* OrientationButton.swift in Sources */,
+				EA9C64552D0CA00C007C5E69 /* RoundView.swift in Sources */,
+				EA9C64562D0CA00C007C5E69 /* SpaceLabel.swift in Sources */,
+				EA9C64572D0CA00C007C5E69 /* StarGradeView.swift in Sources */,
+				EA9C64582D0CA00C007C5E69 /* Stepper.swift in Sources */,
+				EA9C64592D0CA00C007C5E69 /* WeakObjects.swift in Sources */,
+				EA9C645A2D0CA00C007C5E69 /* AppDelegate.swift in Sources */,
+				EA9C645B2D0CA00C007C5E69 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +550,14 @@
 /* Begin XCBuildConfiguration section */
 		EAD78F0E2D0B01D8007AA719 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06CC1547B08CF19A8315614 /* Pods-DevelopmentKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z9M53XYF8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevelopmentKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -168,12 +580,14 @@
 		};
 		EAD78F0F2D0B01D8007AA719 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBE435EB8992B912DE6898C /* Pods-DevelopmentKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Z9M53XYF8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevelopmentKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
