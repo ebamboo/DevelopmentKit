@@ -88,6 +88,15 @@
 		EA9C64832D0D130A007C5E69 /* OCMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64662D0D130A007C5E69 /* OCMediaView.swift */; };
 		EA9C64842D0D130A007C5E69 /* MediaBrowserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64612D0D130A007C5E69 /* MediaBrowserImageCell.swift */; };
 		EA9C64862D0D2C74007C5E69 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64852D0D2C74007C5E69 /* TabViewController.swift */; };
+		EA9C64942D0D2FC4007C5E69 /* BrowserTestOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9C648A2D0D2FC4007C5E69 /* BrowserTestOCViewController.m */; };
+		EA9C64952D0D2FC4007C5E69 /* MediaViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C648D2D0D2FC4007C5E69 /* MediaViewTestViewController.swift */; };
+		EA9C64962D0D2FC4007C5E69 /* FlowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64902D0D2FC4007C5E69 /* FlowImageViewController.swift */; };
+		EA9C64972D0D2FC4007C5E69 /* BrowserTestSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64872D0D2FC4007C5E69 /* BrowserTestSwiftViewController.swift */; };
+		EA9C64982D0D2FC4007C5E69 /* FlowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C64912D0D2FC4007C5E69 /* FlowImageViewController.xib */; };
+		EA9C64992D0D2FC4007C5E69 /* BrowserTestOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C648B2D0D2FC4007C5E69 /* BrowserTestOCViewController.xib */; };
+		EA9C649A2D0D2FC4007C5E69 /* BrowserTestSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C64882D0D2FC4007C5E69 /* BrowserTestSwiftViewController.xib */; };
+		EA9C649B2D0D2FC4007C5E69 /* MediaViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9C648E2D0D2FC4007C5E69 /* MediaViewTestViewController.xib */; };
+		EA9C649D2D0D2FF3007C5E69 /* ToolsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C649C2D0D2FF3007C5E69 /* ToolsTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +183,17 @@
 		EA9C646F2D0D130A007C5E69 /* HTTPConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConvenience.swift; sourceTree = "<group>"; };
 		EA9C64712D0D130A007C5E69 /* FlowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowImageView.swift; sourceTree = "<group>"; };
 		EA9C64852D0D2C74007C5E69 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		EA9C64872D0D2FC4007C5E69 /* BrowserTestSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserTestSwiftViewController.swift; sourceTree = "<group>"; };
+		EA9C64882D0D2FC4007C5E69 /* BrowserTestSwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowserTestSwiftViewController.xib; sourceTree = "<group>"; };
+		EA9C64892D0D2FC4007C5E69 /* BrowserTestOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserTestOCViewController.h; sourceTree = "<group>"; };
+		EA9C648A2D0D2FC4007C5E69 /* BrowserTestOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserTestOCViewController.m; sourceTree = "<group>"; };
+		EA9C648B2D0D2FC4007C5E69 /* BrowserTestOCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowserTestOCViewController.xib; sourceTree = "<group>"; };
+		EA9C648D2D0D2FC4007C5E69 /* MediaViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewTestViewController.swift; sourceTree = "<group>"; };
+		EA9C648E2D0D2FC4007C5E69 /* MediaViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaViewTestViewController.xib; sourceTree = "<group>"; };
+		EA9C64902D0D2FC4007C5E69 /* FlowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowImageViewController.swift; sourceTree = "<group>"; };
+		EA9C64912D0D2FC4007C5E69 /* FlowImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlowImageViewController.xib; sourceTree = "<group>"; };
+		EA9C649C2D0D2FF3007C5E69 /* ToolsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsTestViewController.swift; sourceTree = "<group>"; };
+		EA9C64A72D0D3226007C5E69 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		EAD78EFA2D0B01D8007AA719 /* DevelopmentKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopmentKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4C358B8587C63B9B1726C6 /* Pods_DevelopmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevelopmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -281,13 +301,13 @@
 			path = ModelAnimator;
 			sourceTree = "<group>";
 		};
-		EA9C63ED2D0CA00C007C5E69 /* New Group */ = {
+		EA9C63ED2D0CA00C007C5E69 /* Scroll嵌套 */ = {
 			isa = PBXGroup;
 			children = (
 				EA9C63EB2D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift */,
 				EA9C63EC2D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib */,
 			);
-			path = "New Group";
+			path = "Scroll嵌套";
 			sourceTree = "<group>";
 		};
 		EA9C63F02D0CA00C007C5E69 /* UIImage+Transform 测试 */ = {
@@ -310,7 +330,7 @@
 				EA9C63E22D0CA00C007C5E69 /* 自定义UIView每个圆角大小RoundView */,
 				EA9C63E52D0CA00C007C5E69 /* Keychain */,
 				EA9C63EA2D0CA00C007C5E69 /* ModelAnimator */,
-				EA9C63ED2D0CA00C007C5E69 /* New Group */,
+				EA9C63ED2D0CA00C007C5E69 /* Scroll嵌套 */,
 				EA9C63F02D0CA00C007C5E69 /* UIImage+Transform 测试 */,
 			);
 			path = UtilsTest;
@@ -378,14 +398,17 @@
 		EA9C641D2D0CA00C007C5E69 /* DevelopmentKit */ = {
 			isa = PBXGroup;
 			children = (
-				EA9C645C2D0D12F1007C5E69 /* Tools */,
 				EA9C64182D0CA00C007C5E69 /* Utils */,
+				EA9C645C2D0D12F1007C5E69 /* Tools */,
 				EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */,
-				EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */,
-				EA9C641B2D0CA00C007C5E69 /* Info.plist */,
 				EA9C64852D0D2C74007C5E69 /* TabViewController.swift */,
 				EA9C641C2D0CA00C007C5E69 /* UtilsTestViewController.swift */,
+				EA9C649C2D0D2FF3007C5E69 /* ToolsTestViewController.swift */,
+				EA9C64A72D0D3226007C5E69 /* Bridging-Header.h */,
 				EA9C63F12D0CA00C007C5E69 /* UtilsTest */,
+				EA9C64932D0D2FC4007C5E69 /* ToolsTest */,
+				EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */,
+				EA9C641B2D0CA00C007C5E69 /* Info.plist */,
 			);
 			path = DevelopmentKit;
 			sourceTree = "<group>";
@@ -429,6 +452,46 @@
 				EA9C646A2D0D130A007C5E69 /* MediaViewCellManager.swift */,
 			);
 			path = MediaView;
+			sourceTree = "<group>";
+		};
+		EA9C648C2D0D2FC4007C5E69 /* MediaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C64872D0D2FC4007C5E69 /* BrowserTestSwiftViewController.swift */,
+				EA9C64882D0D2FC4007C5E69 /* BrowserTestSwiftViewController.xib */,
+				EA9C64892D0D2FC4007C5E69 /* BrowserTestOCViewController.h */,
+				EA9C648A2D0D2FC4007C5E69 /* BrowserTestOCViewController.m */,
+				EA9C648B2D0D2FC4007C5E69 /* BrowserTestOCViewController.xib */,
+			);
+			path = MediaBrowser;
+			sourceTree = "<group>";
+		};
+		EA9C648F2D0D2FC4007C5E69 /* MediaView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C648D2D0D2FC4007C5E69 /* MediaViewTestViewController.swift */,
+				EA9C648E2D0D2FC4007C5E69 /* MediaViewTestViewController.xib */,
+			);
+			path = MediaView;
+			sourceTree = "<group>";
+		};
+		EA9C64922D0D2FC4007C5E69 /* FlowImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C64902D0D2FC4007C5E69 /* FlowImageViewController.swift */,
+				EA9C64912D0D2FC4007C5E69 /* FlowImageViewController.xib */,
+			);
+			path = FlowImageView;
+			sourceTree = "<group>";
+		};
+		EA9C64932D0D2FC4007C5E69 /* ToolsTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C648C2D0D2FC4007C5E69 /* MediaBrowser */,
+				EA9C648F2D0D2FC4007C5E69 /* MediaView */,
+				EA9C64922D0D2FC4007C5E69 /* FlowImageView */,
+			);
+			path = ToolsTest;
 			sourceTree = "<group>";
 		};
 		EAD78EF12D0B01D8007AA719 = {
@@ -521,6 +584,10 @@
 				EA9C64262D0CA00C007C5E69 /* PresentingViewController.xib in Resources */,
 				EA9C64272D0CA00C007C5E69 /* NestedScrollViewTestViewController.xib in Resources */,
 				EA9C64282D0CA00C007C5E69 /* UIImageTransformTestViewController.xib in Resources */,
+				EA9C64982D0D2FC4007C5E69 /* FlowImageViewController.xib in Resources */,
+				EA9C64992D0D2FC4007C5E69 /* BrowserTestOCViewController.xib in Resources */,
+				EA9C649A2D0D2FC4007C5E69 /* BrowserTestSwiftViewController.xib in Resources */,
+				EA9C649B2D0D2FC4007C5E69 /* MediaViewTestViewController.xib in Resources */,
 				EA9C64292D0CA00C007C5E69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +649,7 @@
 				EA9C64302D0CA00C007C5E69 /* RoundViewTestViewController.swift in Sources */,
 				EA9C64312D0CA00C007C5E69 /* KeychainViewController.swift in Sources */,
 				EA9C64322D0CA00C007C5E69 /* PresentedViewController.swift in Sources */,
+				EA9C649D2D0D2FF3007C5E69 /* ToolsTestViewController.swift in Sources */,
 				EA9C64332D0CA00C007C5E69 /* PresentingViewController.swift in Sources */,
 				EA9C64342D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift in Sources */,
 				EA9C64722D0D130A007C5E69 /* MediaBrowser.swift in Sources */,
@@ -629,6 +697,10 @@
 				EA9C644C2D0CA00C007C5E69 /* CollectionViewTagLayout.swift in Sources */,
 				EA9C644D2D0CA00C007C5E69 /* DashView.swift in Sources */,
 				EA9C644E2D0CA00C007C5E69 /* JustWork.swift in Sources */,
+				EA9C64942D0D2FC4007C5E69 /* BrowserTestOCViewController.m in Sources */,
+				EA9C64952D0D2FC4007C5E69 /* MediaViewTestViewController.swift in Sources */,
+				EA9C64962D0D2FC4007C5E69 /* FlowImageViewController.swift in Sources */,
+				EA9C64972D0D2FC4007C5E69 /* BrowserTestSwiftViewController.swift in Sources */,
 				EA9C644F2D0CA00C007C5E69 /* Keychain.swift in Sources */,
 				EA9C64502D0CA00C007C5E69 /* ModelAnimator.swift in Sources */,
 				EA9C64512D0CA00C007C5E69 /* NestedScrollView.swift in Sources */,
@@ -673,6 +745,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = beizhu.com.DevelopmentKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DevelopmentKit/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -703,6 +776,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = beizhu.com.DevelopmentKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DevelopmentKit/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -25,7 +25,7 @@ class UtilsTestViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Jasmine"
+        navigationItem.title = "Utils"
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
