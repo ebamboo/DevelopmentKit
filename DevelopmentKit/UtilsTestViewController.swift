@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UtilsTestViewController.swift
 //  Jasmine
 //
 //  Created by ebamboo on 2021/11/26.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UtilsTestViewController: UIViewController {
     
     let titles = [
         "Keychain", "ModelAnimator", "已删除，等待优化",
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Jasmine"
+        navigationItem.title = "Jasmine"
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension UtilsTestViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count

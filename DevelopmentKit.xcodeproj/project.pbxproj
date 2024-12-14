@@ -68,7 +68,7 @@
 		EA9C64582D0CA00C007C5E69 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64152D0CA00C007C5E69 /* Stepper.swift */; };
 		EA9C64592D0CA00C007C5E69 /* WeakObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64162D0CA00C007C5E69 /* WeakObjects.swift */; };
 		EA9C645A2D0CA00C007C5E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */; };
-		EA9C645B2D0CA00C007C5E69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C641C2D0CA00C007C5E69 /* ViewController.swift */; };
+		EA9C645B2D0CA00C007C5E69 /* UtilsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C641C2D0CA00C007C5E69 /* UtilsTestViewController.swift */; };
 		EA9C64722D0D130A007C5E69 /* MediaBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C645E2D0D130A007C5E69 /* MediaBrowser.swift */; };
 		EA9C64732D0D130A007C5E69 /* MediaBrowserBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64602D0D130A007C5E69 /* MediaBrowserBottomBar.swift */; };
 		EA9C64752D0D130A007C5E69 /* OCMediaBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C645D2D0D130A007C5E69 /* OCMediaBrowser.swift */; };
@@ -87,6 +87,7 @@
 		EA9C64822D0D130A007C5E69 /* MediaBrowserItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64642D0D130A007C5E69 /* MediaBrowserItemModel.swift */; };
 		EA9C64832D0D130A007C5E69 /* OCMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64662D0D130A007C5E69 /* OCMediaView.swift */; };
 		EA9C64842D0D130A007C5E69 /* MediaBrowserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64612D0D130A007C5E69 /* MediaBrowserImageCell.swift */; };
+		EA9C64862D0D2C74007C5E69 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C64852D0D2C74007C5E69 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -153,7 +154,7 @@
 		EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9C641B2D0CA00C007C5E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA9C641C2D0CA00C007C5E69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA9C641C2D0CA00C007C5E69 /* UtilsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTestViewController.swift; sourceTree = "<group>"; };
 		EA9C645D2D0D130A007C5E69 /* OCMediaBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCMediaBrowser.swift; sourceTree = "<group>"; };
 		EA9C645E2D0D130A007C5E69 /* MediaBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaBrowser.swift; sourceTree = "<group>"; };
 		EA9C645F2D0D130A007C5E69 /* MediaBrowserTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaBrowserTopBar.swift; sourceTree = "<group>"; };
@@ -172,6 +173,7 @@
 		EA9C646E2D0D130A007C5E69 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		EA9C646F2D0D130A007C5E69 /* HTTPConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConvenience.swift; sourceTree = "<group>"; };
 		EA9C64712D0D130A007C5E69 /* FlowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowImageView.swift; sourceTree = "<group>"; };
+		EA9C64852D0D2C74007C5E69 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		EAD78EFA2D0B01D8007AA719 /* DevelopmentKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopmentKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4C358B8587C63B9B1726C6 /* Pods_DevelopmentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevelopmentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -297,7 +299,7 @@
 			path = "UIImage+Transform 测试";
 			sourceTree = "<group>";
 		};
-		EA9C63F12D0CA00C007C5E69 /* Test */ = {
+		EA9C63F12D0CA00C007C5E69 /* UtilsTest */ = {
 			isa = PBXGroup;
 			children = (
 				EA9C63D32D0CA00C007C5E69 /* 标签样式CollectionViewTagLayout */,
@@ -311,7 +313,7 @@
 				EA9C63ED2D0CA00C007C5E69 /* New Group */,
 				EA9C63F02D0CA00C007C5E69 /* UIImage+Transform 测试 */,
 			);
-			path = Test;
+			path = UtilsTest;
 			sourceTree = "<group>";
 		};
 		EA9C64062D0CA00C007C5E69 /* Category */ = {
@@ -381,8 +383,9 @@
 				EA9C64192D0CA00C007C5E69 /* AppDelegate.swift */,
 				EA9C641A2D0CA00C007C5E69 /* Assets.xcassets */,
 				EA9C641B2D0CA00C007C5E69 /* Info.plist */,
-				EA9C641C2D0CA00C007C5E69 /* ViewController.swift */,
-				EA9C63F12D0CA00C007C5E69 /* Test */,
+				EA9C64852D0D2C74007C5E69 /* TabViewController.swift */,
+				EA9C641C2D0CA00C007C5E69 /* UtilsTestViewController.swift */,
+				EA9C63F12D0CA00C007C5E69 /* UtilsTest */,
 			);
 			path = DevelopmentKit;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				EA9C64342D0CA00C007C5E69 /* NestedScrollViewTestViewController.swift in Sources */,
 				EA9C64722D0D130A007C5E69 /* MediaBrowser.swift in Sources */,
 				EA9C64732D0D130A007C5E69 /* MediaBrowserBottomBar.swift in Sources */,
+				EA9C64862D0D2C74007C5E69 /* TabViewController.swift in Sources */,
 				EA9C64752D0D130A007C5E69 /* OCMediaBrowser.swift in Sources */,
 				EA9C64762D0D130A007C5E69 /* HTTPConvenience.swift in Sources */,
 				EA9C64772D0D130A007C5E69 /* MediaViewVideoCell.swift in Sources */,
@@ -637,7 +641,7 @@
 				EA9C64582D0CA00C007C5E69 /* Stepper.swift in Sources */,
 				EA9C64592D0CA00C007C5E69 /* WeakObjects.swift in Sources */,
 				EA9C645A2D0CA00C007C5E69 /* AppDelegate.swift in Sources */,
-				EA9C645B2D0CA00C007C5E69 /* ViewController.swift in Sources */,
+				EA9C645B2D0CA00C007C5E69 /* UtilsTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
